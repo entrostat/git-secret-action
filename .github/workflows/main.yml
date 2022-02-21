@@ -17,7 +17,7 @@ jobs:
       - name: Assert the secret Exists
         run: |
           SECRET=$(cat .env | grep "ACTION")
-          if [ "$SECRET" = "ACTION=git-secret-action" ]
+          if [ "$SECRET" = "ACTION=git-secret-action-WRONG" ]
           then
             exit 0
           else
