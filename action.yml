@@ -1,4 +1,4 @@
-name: 'Git Secret Revealer'
+name: 'Git Secret Reveal Action'
 description: 'Reveal the secrets committed into your repo'
 inputs:
   gpg-private-key:
