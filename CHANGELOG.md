@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/entrostat/git-secret-action/compare/v1.1.0...v2.0.0) (2022-02-21)
+
+
+### Features
+
+* **branding:** Added branding to the action for the Market Place ([4d9e9d5](https://github.com/entrostat/git-secret-action/commit/4d9e9d56a26e6f030e8f0453dd6495340447695e))
+
 ## [1.1.0](https://github.com/entrostat/git-secret-action/compare/v1.0.0...v1.1.0) (2022-02-21)
 
 
