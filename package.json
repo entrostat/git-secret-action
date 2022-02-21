@@ -1,0 +1,25 @@
+{
+  "name": "git-secret-action",
+  "version": "0.0.0",
+  "description": "A GitHub action that reveals git secrets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "action",
+    "git",
+    "secret",
+    "git-secret",
+    "automation",
+    "gpg",
+    "encryption",
+    "pgp"
+  ],
+  "author": "Kerren-Entrostat",
+  "license": "MIT",
+  "devDependencies": {
+    "entro-version": "^1.7.0"
+  }
+}
