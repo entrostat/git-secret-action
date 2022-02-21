@@ -1,10 +1,11 @@
 {
   "name": "git-secret-action",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A GitHub action that reveals git secrets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "entro-version --master-branch-name=main"
   },
   "keywords": [
     "github",
