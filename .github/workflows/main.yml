@@ -3,7 +3,7 @@ on: [ push ]
 jobs:
   git_secret_job:
     runs-on: ubuntu-latest
-    name: A job to reveal secrets
+    name: Reveal Secrets
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -13,3 +13,13 @@ jobs:
         uses: ./
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+
+      - name: Assert the secret Exists
+        run: |
+          SECRET=$(cat .env | grep "ACTION")
+          if [ "$SECRET" = "ACTION=git-secret-action" ]
+          then
+            exit 0
+          else
+            exit 1
+          fi
