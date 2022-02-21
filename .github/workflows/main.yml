@@ -12,4 +12,4 @@ jobs:
         id: git-secret
         uses: ./
         with:
-          gpg-secret-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}

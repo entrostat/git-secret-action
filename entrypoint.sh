@@ -1,5 +1,9 @@
 #!/bin/sh
 
-echo "Hello World"
+echo "Revealing the secrets in the repository..."
 
-ls -lah .
+echo "$1" > /root/gpg
+
+gpg --import /root/gpg
+
+git secret reveal
