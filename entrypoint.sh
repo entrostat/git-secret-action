@@ -2,8 +2,10 @@
 
 echo "Revealing the secrets in the repository..."
 
-echo "$1" > /root/gpg
+echo "$1" | gpg --no-tty --batch --import
 
-gpg --import /root/gpg
+if [ ! -z "$2" ]; then
+  pass_arg="-p $2"
+fi
 
-git secret reveal
+git secret reveal $pass_arg
