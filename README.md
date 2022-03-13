@@ -44,7 +44,6 @@ Where the `GPG_KEY_ID` is the email address that you used in the previous step.
 
 There are a few things that still need to be added to the project to get it to a complete state. They are listed below:
 
-- [ ] Add the ability to specify a passphrase
 - [ ] Add the ability to specify a path to the GPG key instead of using an environment variable
 - [ ] Add the ability to force reveal the secrets (sometimes you may want to overwrite existing files)
 
