@@ -36,7 +36,7 @@ jobs:
         uses: ./
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_LOCKED_KEY }}
-          gpg-passphrase: ${{ secrets.GPG_PRIVATE_LOCKED_PASSPHRASE }}
+          gpg-private-key-passphrase: ${{ secrets.GPG_PRIVATE_LOCKED_PASSPHRASE }}
 
       - name: Assert the secret Exists
         run: |
