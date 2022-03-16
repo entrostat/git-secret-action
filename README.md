@@ -19,6 +19,9 @@ jobs:
         uses: entrostat/git-secret-action@v2.0.0
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          # The passphrase is optional, you can leave
+          # the line below out if you don't have one
+          gpg-private-key-passphrase: ${{ secrets.GPG_PRIVATE_KEY_PASSPHRASE }}
 ```
 
 Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 4 lines if you have already set up your jobs in your workflow.
