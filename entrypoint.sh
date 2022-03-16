@@ -6,7 +6,7 @@ echo "$1" | gpg --no-tty --batch --import
 
 q_mid=\'\\\'\'
 pass_esc="'${2//\'/$q_mid}'"
-if [ ! -z "$pass_esc" ]; then
+if [ "$pass_esc" != "''" ]; then
   # Check this link to see why we use the @Q
   # https://unix.stackexchange.com/questions/379181/escape-a-variable-for-use-as-content-of-another-script
 
