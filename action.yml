@@ -15,4 +15,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.gpg-private-key }}
-    - ${{ inputs.gpg-private-key-passphrase }}
+    - "${{ inputs.gpg-private-key-passphrase }}"
