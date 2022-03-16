@@ -26,7 +26,7 @@ jobs:
 
   git_secret_passphrase_job:
     runs-on: ubuntu-latest
-    name: Reveal Secrets
+    name: Reveal Secrets with Passphrase
     steps:
       - name: Checkout
         uses: actions/checkout@v2
