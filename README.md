@@ -19,6 +19,9 @@ jobs:
         uses: entrostat/git-secret-action@v2.0.0
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          # The passphrase is optional, you can leave
+          # the line below out if you don't have one
+          gpg-private-key-passphrase: ${{ secrets.GPG_PRIVATE_KEY_PASSPHRASE }}
 ```
 
 Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 4 lines if you have already set up your jobs in your workflow.
@@ -44,7 +47,6 @@ Where the `GPG_KEY_ID` is the email address that you used in the previous step.
 
 There are a few things that still need to be added to the project to get it to a complete state. They are listed below:
 
-- [ ] Add the ability to specify a passphrase
 - [ ] Add the ability to specify a path to the GPG key instead of using an environment variable
 - [ ] Add the ability to force reveal the secrets (sometimes you may want to overwrite existing files)
 

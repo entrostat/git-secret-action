@@ -1,9 +1,14 @@
 #!/bin/sh
 
+set -x
+
 echo "Revealing the secrets in the repository..."
 
-echo "$1" > /root/gpg
+echo "$1" | gpg --no-tty --batch --import
 
-gpg --import /root/gpg
-
-git secret reveal
+if [ ! -z "$2" ]; then
+  escaped_pass=$(printf "%s" "$2")
+  git secret reveal -p "${escaped_pass}"
+else
+  git secret reveal
+fi
