@@ -1,11 +1,17 @@
 #!/bin/sh
 
+set -x
+
 echo "Revealing the secrets in the repository..."
 
 echo "$1" | gpg --no-tty --batch --import
 
 if [ ! -z "$2" ]; then
-  pass_arg="-p $2"
-fi
+  # Check this link to see why we use the @Q
+  # https://unix.stackexchange.com/questions/379181/escape-a-variable-for-use-as-content-of-another-script
 
-git secret reveal $pass_arg
+  escaped_pass=$(printf "%s" "$2")
+  git secret reveal -p "${escaped_pass}"
+else
+  git secret reveal
+fi
