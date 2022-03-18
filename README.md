@@ -2,6 +2,10 @@
 
 This action reveals secrets that are in your repository that you have encrypted using [git-secret](https://git-secret.io/). I've wrapped up the binary in an Alpine dockerfile and all it requires is the gpg private key.
 
+The action below checks that everything is working correctly by revealing a secret that doesn't require a passphrase and one that does.
+
+[![.github/workflows/main.yml](https://github.com/entrostat/git-secret-action/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/entrostat/git-secret-action/actions/workflows/main.yml)
+
 ## Usage
 
 To use this action, you'll need to add the following to your workflow `.yml` file:
