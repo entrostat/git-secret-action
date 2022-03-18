@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Git Secret Reveal Step
-        uses: entrostat/git-secret-action@v2.0.0
+        uses: entrostat/git-secret-action@v3.0.1
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           # The passphrase is optional, you can leave
@@ -24,7 +24,9 @@ jobs:
           gpg-private-key-passphrase: ${{ secrets.GPG_PRIVATE_KEY_PASSPHRASE }}
 ```
 
-Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 4 lines if you have already set up your jobs in your workflow.
+The `gpg-private-key-passphrase` is optional, you don't need to use it but if you have it you can add it. If you don't have a passphrase on your key then just leave that key out of the `yaml` file.
+
+Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 7 lines if you have already set up your jobs in your workflow.
 
 
 ## Recommendations
