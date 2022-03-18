@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/entrostat/git-secret-action/compare/v3.0.0...v3.0.1) (2022-03-18)
+
+
+### Bug Fixes
+
+* **docs:** Updated the README with the correct version and explained the passphrase is optional ([6443463](https://github.com/entrostat/git-secret-action/commit/64434630457d1779d894331b575ee396711309b3))
+
 ## [3.0.0](https://github.com/entrostat/git-secret-action/compare/v2.0.2...v3.0.0) (2022-03-18)
 
 
