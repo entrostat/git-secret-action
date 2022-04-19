@@ -2,6 +2,7 @@
 
 cd /github/workspace
 git config --global --add safe.directory /github/workspace
+export GPG_TTY=$(tty)
 
 echo "Revealing the secrets in the repository..."
 
