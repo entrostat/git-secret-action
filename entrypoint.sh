@@ -1,6 +1,7 @@
 #!/bin/sh
 
-set -x
+cd /github/workspace
+git config --global --add safe.directory /github/workspace
 
 echo "Revealing the secrets in the repository..."
 
