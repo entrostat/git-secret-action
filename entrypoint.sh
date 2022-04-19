@@ -1,6 +1,8 @@
 #!/bin/sh
 
 cd /github/workspace
+echo "The repository files are as follows:"
+ls -lah
 
 echo "Revealing the secrets in the repository..."
 
