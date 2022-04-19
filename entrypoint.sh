@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -x
+cd /github/workspace
 
 echo "Revealing the secrets in the repository..."
 
