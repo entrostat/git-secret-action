@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd /github/workspace
+git config --global --add safe.directory /github/workspace
 echo "The repository files are as follows:"
 ls -lah
 
