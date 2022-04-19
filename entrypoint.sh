@@ -10,7 +10,9 @@ echo "$1" | gpg --no-tty --batch --import
 
 if [ ! -z "$2" ]; then
   escaped_pass=$(printf "%s" "$2")
+  cd /github/workspace
   git secret reveal -p "${escaped_pass}"
 else
+  cd /github/workspace
   git secret reveal
 fi
