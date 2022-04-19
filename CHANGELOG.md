@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/entrostat/git-secret-action/compare/v3.1.2...v3.2.0) (2022-04-19)
+
+
+### Features
+
+* **reveal:** Force reveal each time so that we don't prompt for overwrite ([6f00d8c](https://github.com/entrostat/git-secret-action/commit/6f00d8c4189e0f50f5459fd4953de61d4bf2a181))
+
 ### [3.1.2](https://github.com/entrostat/git-secret-action/compare/v3.1.1...v3.1.2) (2022-04-19)
 
 
