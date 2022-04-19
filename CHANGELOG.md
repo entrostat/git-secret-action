@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/entrostat/git-secret-action/compare/v3.0.1...v3.1.0) (2022-04-19)
+
+
+### Features
+
+* **git-safety:** Allow the 'unsafe directory' when moving into /github/workspace ([90ef7e8](https://github.com/entrostat/git-secret-action/commit/90ef7e8ebb350a2e3ab72383c75bb66ddc5c99c3))
+* **path:** Always cd into the workspace path before running the reveal ([6818ea3](https://github.com/entrostat/git-secret-action/commit/6818ea3b3a68b968e477cb0358bb1ddaeb0ae0f3))
+
+
+### Bug Fixes
+
+* **debugging:** Added the git status output ([f7a0f83](https://github.com/entrostat/git-secret-action/commit/f7a0f839739bcfade30de3db74d65500bb06cd6c))
+* **debugging:** Output the workspace directory for debugging purposes ([7dc9fc8](https://github.com/entrostat/git-secret-action/commit/7dc9fc8b9739b198b48bb1d573ce13c572c64677))
+* **path:** Move into the github workspace each time we reveal secrets ([3a13ebc](https://github.com/entrostat/git-secret-action/commit/3a13ebc7d2949ba590f4bcb9a6038b106ca5da8d))
+* **upgrades:** Use checkout@v3 in the repo ([635ceef](https://github.com/entrostat/git-secret-action/commit/635ceef504281a7f62d1f61600fa967b62acb8d6))
+
 ### [3.0.1](https://github.com/entrostat/git-secret-action/compare/v3.0.0...v3.0.1) (2022-03-18)
 
 
