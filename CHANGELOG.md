@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.2](https://github.com/entrostat/git-secret-action/compare/v3.1.1...v3.1.2) (2022-04-19)
+
+
+### Bug Fixes
+
+* **tty:** Added the export for the tty env variable ([525216f](https://github.com/entrostat/git-secret-action/commit/525216f6194ec2969cf08dfaacdb66e9a9907a45))
+
 ### [3.1.1](https://github.com/entrostat/git-secret-action/compare/v3.1.0...v3.1.1) (2022-04-19)
 
 
