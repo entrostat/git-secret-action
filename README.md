@@ -17,10 +17,10 @@ jobs:
     name: Reveal Secrets
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Git Secret Reveal Step
-        uses: entrostat/git-secret-action@v3.0.1
+        uses: entrostat/git-secret-action@v3.1.0
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           # The passphrase is optional, you can leave
@@ -32,6 +32,7 @@ The `gpg-private-key-passphrase` is optional, you don't need to use it but if yo
 
 Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 7 lines if you have already set up your jobs in your workflow.
 
+**NOTE: Please use `actions/checkout@v3` not `actions/checkout@v2` otherwise the process may fail!**
 
 ## Recommendations
 
