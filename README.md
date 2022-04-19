@@ -32,8 +32,6 @@ The `gpg-private-key-passphrase` is optional, you don't need to use it but if yo
 
 Note, I've added the `jobs` entry all the way down to the action itself, but you'd only need the last 7 lines if you have already set up your jobs in your workflow.
 
-**NOTE: Please use `actions/checkout@v3` not `actions/checkout@v2` otherwise the process may fail!**
-
 ## Recommendations
 
 I'd recommend generating a GPG key for your CI pipeline. To generate a key, run:
