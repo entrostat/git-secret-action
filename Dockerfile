@@ -19,6 +19,7 @@ RUN apk add --update \
     gpg \
     gpg-agent \
     git \
+    gawk \
     && rm -rf /var/cache/apk/*
 
 COPY --from=builder /dist/bin/git-secret /usr/bin
