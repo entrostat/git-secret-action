@@ -14,6 +14,12 @@ RUN git clone https://github.com/sobolevn/git-secret.git git-secret \
 
 FROM alpine:3
 
+RUN apk add --update \
+    gpg \
+    gpg-agent \
+    git \
+    && rm -rf /var/cache/apk/*
+
 COPY --from=builder /dist/bin/git-secret /usr/bin
 
 COPY entrypoint.sh /entrypoint.sh
