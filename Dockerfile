@@ -15,6 +15,7 @@ RUN git clone https://github.com/sobolevn/git-secret.git git-secret \
 FROM alpine:3
 
 RUN apk add --update \
+    bash \
     gpg \
     gpg-agent \
     git \
