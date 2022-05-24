@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/entrostat/git-secret-action/compare/v3.2.0...v3.3.0) (2022-05-24)
+
+
+### Features
+
+* **build:** Use src to build the binary instead of using the package library ([45ed329](https://github.com/entrostat/git-secret-action/commit/45ed32917d35b2bf7057e885a57f65867efcb7ac))
+
+
+### Bug Fixes
+
+* **build:** Install bash in the final alpine image ([5eb97b8](https://github.com/entrostat/git-secret-action/commit/5eb97b8d7977601352edfac25c1b268cc6ce0a84))
+* **build:** Install gawk in the final alpine image ([08cb934](https://github.com/entrostat/git-secret-action/commit/08cb93407cc6863a58c48290bb7b43912ca363de))
+
 ## [3.2.0](https://github.com/entrostat/git-secret-action/compare/v3.1.2...v3.2.0) (2022-04-19)
 
 
