@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "entro-version --master-branch-name=main"
+    "release": "npx entro-version release --master-branch-name=main",
+    "templates:update": "npx entro-ci templates:update"
   },
   "keywords": [
     "github",
@@ -19,8 +20,5 @@
     "pgp"
   ],
   "author": "Kerren-Entrostat",
-  "license": "MIT",
-  "devDependencies": {
-    "entro-version": "^1.7.0"
-  }
+  "license": "MIT"
 }
