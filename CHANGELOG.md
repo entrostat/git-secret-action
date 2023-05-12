@@ -1,6 +1,15 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [4.0.0](https://github.com/entrostat/git-secret-action/compare/v3.3.1...v4.0.0) (2023-05-12)
+
+
+### Features
+
+* **devops:** Added action types [#3](https://github.com/entrostat/git-secret-action/issues/3) ([9245d60](https://github.com/entrostat/git-secret-action/commit/9245d60768858c05301508ab7bd6c1f95dbdb592))
+* **devops:** Added the ability to run a major release ([96b2361](https://github.com/entrostat/git-secret-action/commit/96b23617127ccfc42d900530976e741891779d66))
+* **devops:** Use the prebuilt image to increase speed and lock dependencies [#5](https://github.com/entrostat/git-secret-action/issues/5) ([9b72335](https://github.com/entrostat/git-secret-action/commit/9b72335a9722fae2effb76c3abd1564806334d3e))
 
 ### [3.3.1](https://github.com/entrostat/git-secret-action/compare/v3.3.0...v3.3.1) (2023-05-12)
 
