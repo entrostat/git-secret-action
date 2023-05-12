@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [4.0.2](https://github.com/entrostat/git-secret-action/compare/v4.0.1...v4.0.2) (2023-05-12)
+
+
+### Bug Fixes
+
+* **devops:** Updated the actions to use the build dockerfile ([12f0afb](https://github.com/entrostat/git-secret-action/commit/12f0afb8beb371524f9c5e2f6b3ad25ced611d04))
+
 ### [4.0.1](https://github.com/entrostat/git-secret-action/compare/v4.0.0...v4.0.1) (2023-05-12)
 
 ## [4.0.0](https://github.com/entrostat/git-secret-action/compare/v3.3.1...v4.0.0) (2023-05-12)

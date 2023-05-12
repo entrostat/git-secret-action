@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Git Secret Reveal Step
-        uses: entrostat/git-secret-action@v4.0.1
+        uses: entrostat/git-secret-action@v4.0.2
         with:
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           # The passphrase is optional, you can leave

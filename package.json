@@ -1,6 +1,6 @@
 {
   "name": "git-secret-action",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A GitHub action that reveals git secrets",
   "main": "index.js",
   "scripts": {

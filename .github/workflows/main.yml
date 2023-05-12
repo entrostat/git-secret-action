@@ -18,6 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Copy Dockerfile over template
+        run: |
+          cp -f devops/Dockerfile Dockerfile
+
       - name: Git Secret Reveal Step
         id: git-secret
         uses: ./
@@ -40,6 +44,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Copy Dockerfile over template
+        run: |
+          cp -f devops/Dockerfile Dockerfile
 
       - name: Git Secret Reveal Step
         id: git-secret
