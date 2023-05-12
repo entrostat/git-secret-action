@@ -1,4 +1,4 @@
-FROM alpine:3 as builder
+FROM alpine:3.18.0 as builder
 
 RUN apk add --update \
     git \
@@ -12,7 +12,7 @@ RUN git clone https://github.com/sobolevn/git-secret.git git-secret \
   && PREFIX="/dist" make install
 
 
-FROM alpine:3
+FROM alpine:3.18.0
 
 RUN apk add --update \
     bash \
