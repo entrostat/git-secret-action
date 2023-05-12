@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx entro-version release --master-branch-name=main",
+    "release": "npx entro-version release --master-branch-name=main --during-release-post-hook=\"npm run templates:update && git commit -am 'Updated the templates'\"",
     "templates:update": "npx entro-ci templates:update"
   },
   "keywords": [
