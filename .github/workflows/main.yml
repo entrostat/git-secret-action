@@ -1,4 +1,14 @@
-on: [ push ]
+name: Test Git Secret Action
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+  pull_request:
+    branches:
+      - develop
+      - main
 
 jobs:
   git_secret_job:
