@@ -18,6 +18,7 @@ RUN apk add --update \
     bash \
     gpg \
     gpg-agent \
+    gnupg-keyboxd \
     git \
     gawk \
     && rm -rf /var/cache/apk/*
