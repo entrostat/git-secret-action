@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.3.1](https://github.com/entrostat/git-secret-action/compare/v3.3.0...v3.3.1) (2023-05-12)
+
+
+### Bug Fixes
+
+* **build:** add gnupg-keyboxd dependency ([74edab7](https://github.com/entrostat/git-secret-action/commit/74edab76cfd7a3bd9e47c359d96dff3134d1bccb))
+* **build:** add gnupg-keyboxd dependency [#4](https://github.com/entrostat/git-secret-action/issues/4) ([bddee86](https://github.com/entrostat/git-secret-action/commit/bddee8687514a9e96edd36437ce9e02e9999d702))
+* **build:** Lock the version of Alpine to ensure consistency ([d22b41b](https://github.com/entrostat/git-secret-action/commit/d22b41b9e6f43d3ae281f1825e37e995b81f85b2))
+* **devops:** Run the testing pipeline on PRs ([8bc3007](https://github.com/entrostat/git-secret-action/commit/8bc3007e247f371ef8e0e0d9940809f96080985c))
+
 ## [3.3.0](https://github.com/entrostat/git-secret-action/compare/v3.2.0...v3.3.0) (2022-05-24)
 
 
