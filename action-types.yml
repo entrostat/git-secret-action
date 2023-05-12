@@ -1,0 +1,5 @@
+inputs:
+  gpg-private-key: 
+    type: string
+  gpg-private-key-passphrase:
+    type: string

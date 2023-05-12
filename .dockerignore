@@ -1,0 +1,15 @@
+.github
+.gitsecret
+devops
+node_modules
+.env
+.env.secret
+.gitignore
+package.json
+package-lock.json
+CHANGELOG.md
+README.md
+action-types.yml
+action.yml
+entro-ci.yaml
+Dockerfile.hbs

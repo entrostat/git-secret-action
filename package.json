@@ -1,11 +1,13 @@
 {
   "name": "git-secret-action",
-  "version": "3.3.1",
+  "version": "4.0.0",
   "description": "A GitHub action that reveals git secrets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "entro-version --master-branch-name=main"
+    "release": "npx entro-version release --master-branch-name=main --during-release-post-hook=\"npm run templates:update && git commit -am 'Updated the templates'\"",
+    "release:major": "npx entro-version release --master-branch-name=main --commit-and-tag-version-flag=\"--release-as=major\" --during-release-post-hook=\"npm run templates:update && git commit -am 'Updated the templates'\"",
+    "templates:update": "npx entro-ci templates:update"
   },
   "keywords": [
     "github",
@@ -19,8 +21,5 @@
     "pgp"
   ],
   "author": "Kerren-Entrostat",
-  "license": "MIT",
-  "devDependencies": {
-    "entro-version": "^1.7.0"
-  }
+  "license": "MIT"
 }
