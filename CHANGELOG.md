@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [4.0.3](https://github.com/entrostat/git-secret-action/compare/v4.0.2...v4.0.3) (2023-05-13)
+
+
+### Bug Fixes
+
+* **devops:** Set the checkout action to v3 in the tests ([2e2ad09](https://github.com/entrostat/git-secret-action/commit/2e2ad09ec4807fe34582533d5257855df9b67308))
+* **releases:** Set the major release tag and always link it to the latest tag within that version [#7](https://github.com/entrostat/git-secret-action/issues/7) ([82cffee](https://github.com/entrostat/git-secret-action/commit/82cffeefdaa53783f3378fdc015f535eed22ffbc))
+
 ### [4.0.2](https://github.com/entrostat/git-secret-action/compare/v4.0.1...v4.0.2) (2023-05-12)
 
 
