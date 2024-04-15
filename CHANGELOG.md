@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [4.1.0](https://github.com/entrostat/git-secret-action/compare/v4.0.3...v4.1.0) (2024-04-15)
+
+
+### Features
+
+* **platforms:** Add support for ARM platforms [#8](https://github.com/entrostat/git-secret-action/issues/8) ([6fd2d2c](https://github.com/entrostat/git-secret-action/commit/6fd2d2c90df2e51bd2babd8bda94eadc2657767e))
+
 ### [4.0.3](https://github.com/entrostat/git-secret-action/compare/v4.0.2...v4.0.3) (2023-05-13)
 
 

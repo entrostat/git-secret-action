@@ -1,1 +1,1 @@
-FROM kerren/git-secret-action:v4.0.3
+FROM kerren/git-secret-action:v4.1.0
